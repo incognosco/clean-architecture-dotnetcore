@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold.application", "scaffold.application\scaffold.application.csproj", "{B8023133-903D-4D70-BA58-AD278F194B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold.domain", "scaffold.domain\scaffold.domain.csproj", "{5680E67F-7740-461C-A402-71AD7F9B1CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold.persistence", "scaffold.persistence\scaffold.persistence.csproj", "{DB99599A-82DC-481D-A4F7-7232A6292428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold.webapi", "scaffold.webapi\scaffold.webapi.csproj", "{54658E14-A958-430D-937C-CA79AEF0274A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold.gateway", "scaffold.gateway\scaffold.gateway.csproj", "{D512D103-BB2A-4892-A3D2-963D61CADBAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8023133-903D-4D70-BA58-AD278F194B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8023133-903D-4D70-BA58-AD278F194B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8023133-903D-4D70-BA58-AD278F194B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8023133-903D-4D70-BA58-AD278F194B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5680E67F-7740-461C-A402-71AD7F9B1CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5680E67F-7740-461C-A402-71AD7F9B1CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5680E67F-7740-461C-A402-71AD7F9B1CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5680E67F-7740-461C-A402-71AD7F9B1CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB99599A-82DC-481D-A4F7-7232A6292428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB99599A-82DC-481D-A4F7-7232A6292428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB99599A-82DC-481D-A4F7-7232A6292428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB99599A-82DC-481D-A4F7-7232A6292428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54658E14-A958-430D-937C-CA79AEF0274A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54658E14-A958-430D-937C-CA79AEF0274A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54658E14-A958-430D-937C-CA79AEF0274A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54658E14-A958-430D-937C-CA79AEF0274A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D512D103-BB2A-4892-A3D2-963D61CADBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D512D103-BB2A-4892-A3D2-963D61CADBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D512D103-BB2A-4892-A3D2-963D61CADBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D512D103-BB2A-4892-A3D2-963D61CADBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
