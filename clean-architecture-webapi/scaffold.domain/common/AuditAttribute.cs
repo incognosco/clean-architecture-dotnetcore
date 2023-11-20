@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Domain.Common
+namespace Scaffold.Domain.Common
 {
     [AttributeUsage(AttributeTargets.Property )]
     public class AuditAttribute : Attribute

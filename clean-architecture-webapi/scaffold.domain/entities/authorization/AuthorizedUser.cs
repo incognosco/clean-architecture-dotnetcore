@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Entities.Authorization
+namespace Scaffold.Domain.Entities.Authorization
 {
     public class AuthorizedUser
     {

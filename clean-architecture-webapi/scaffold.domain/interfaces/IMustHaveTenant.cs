@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Interfaces
+namespace Scaffold.Domain.Interfaces
 {
     public interface IMustHaveTenant
     {

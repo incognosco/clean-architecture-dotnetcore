@@ -1,5 +1,5 @@
-﻿using Domain.Common;
-using Domain.Interfaces;
+﻿using Scaffold.Domain.Common;
+using Scaffold.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace Domain.Entities.Multitenancy
+namespace Scaffold.Domain.Entities.Multitenancy
 {
     [Table("tenant")]
     public partial class Tenant : IBaseEntity, IMustHaveTenant, IAuditableEntity
@@ -29,13 +29,13 @@ namespace Domain.Entities.Multitenancy
         [NotMapped]
         public string? TenantId { get; set; }
         [Column("host_url")]
-        [Domain.Common.Audit]
+        [Scaffold.Domain.Common.Audit]
         public string? HostUrl { get; set; }
         [Column("admin_host_url")]
-        [Domain.Common.Audit]
+        [Scaffold.Domain.Common.Audit]
         public string? AdminHostUrl { get; set; }
         [Column("api_url")]
-        [Domain.Common.Audit]
+        [Scaffold.Domain.Common.Audit]
         public string? ApiUrl { get; set; }
         [Column("api_version")]
         public int? ApiVersion { get; set; }
@@ -60,7 +60,7 @@ namespace Domain.Entities.Multitenancy
         [Column("admin_email")]
         public string? AdminEmail { get; set; }
         [Column("assets_path")]
-        [Domain.Common.Audit]
+        [Scaffold.Domain.Common.Audit]
         public string? AssetsPath { get; set; }
         [Column("time_zone")]
         public string? TimeZone { get; set; }

@@ -1,12 +1,12 @@
-using Domain.Constants.AuditTrial;
-using Domain.Interfaces;
+using Scaffold.Domain.Constants.AuditTrial;
+using Scaffold.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Entities.AuditTrial
+namespace Scaffold.Domain.Entities.AuditTrial
 {
     public class AuditEntry: IMustHaveTenant
     {

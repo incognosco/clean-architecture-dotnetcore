@@ -3,3 +3,14 @@
 ################################################################################
 
 /clean-architecture-webapi/.vs/clean-architecture-webapi/FileContentIndex
+/.vs
+/clean-architecture-webapi/.vs/clean-architecture-webapi
+/clean-architecture-webapi/scaffold.domain/bin/Debug/net7.0
+/clean-architecture-webapi/scaffold.domain/obj
+/clean-architecture-webapi/scaffold.gateway/bin/Debug/net7.0
+/clean-architecture-webapi/scaffold.gateway/obj
+/clean-architecture-webapi/scaffold.gateway/scaffold.gateway.csproj.user
+/clean-architecture-webapi/scaffold.persistence/bin/Debug/net7.0
+/clean-architecture-webapi/scaffold.persistence/obj
+/clean-architecture-webapi/scaffold.webapi/bin/Debug/net7.0
+/clean-architecture-webapi/scaffold.webapi/obj

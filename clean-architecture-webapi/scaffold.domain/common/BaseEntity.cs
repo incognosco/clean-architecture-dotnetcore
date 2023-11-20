@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 
-namespace Domain.Common
+namespace Scaffold.Domain.Common
 {
     public abstract class BaseEntity
     {

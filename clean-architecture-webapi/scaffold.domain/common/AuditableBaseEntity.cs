@@ -1,10 +1,10 @@
-﻿using Domain.Interfaces;
+﻿using Scaffold.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace Domain.Common
+namespace Scaffold.Domain.Common
 {
     public abstract class AuditableBaseEntity : BaseEntity, IAuditableEntity
     {

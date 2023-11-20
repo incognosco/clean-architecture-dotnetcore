@@ -1,6 +1,6 @@
 using System;
 
-namespace Domain.Interfaces
+namespace Scaffold.Domain.Interfaces
 {
     public interface IAuditableEntity
     {

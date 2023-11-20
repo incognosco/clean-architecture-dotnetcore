@@ -1,10 +1,10 @@
 ﻿using System;
-using Domain.Interfaces;
+using Scaffold.Domain.Interfaces;
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Domain.Entities.AuditTrial 
+namespace Scaffold.Domain.Entities.AuditTrial 
 {
     [Table("audit_trial")]
     public class Audit : IBaseEntity, IAuditableEntity, IMustHaveTenant
